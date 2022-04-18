@@ -1,8 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import Aboutme from '../aboutme';
 
 function About() {
-  return <h1 className='about'>work</h1>;
+  return (
+    <>
+    <Aboutme/>
+    </>
+  );
 }
 
 export default About;

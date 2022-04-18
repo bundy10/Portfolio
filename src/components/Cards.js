@@ -3,6 +3,9 @@ import './Cards.css';
 import CardItem from './CardItem';
 import image from './images/img-1.PNG'
 import image1 from './images/img-2.PNG'
+import image2 from './images/img-3.PNG'
+import image3 from './images/img-4.PNG'
+import image4 from './images/img-5.PNG'
 
 function Cards() {
   return (
@@ -13,35 +16,33 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src= {image}
-              text='Song Marketplace'
+              text='Song Marketplace: Please Click to Visit!'
               label='Ruby On Rails'
-              path='/work'
+              path='http://www.songsaviour.com/'
             />
             <CardItem
               src={image1}
               text='Expense Tracker Powered by Speechly'
               label='React'
-              path='/work'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Eevents Marketplace'
+              src={image2}
+              text='Events Marketplace: Please Click to Visit!'
               label='Ruby On Rails'
-              path='/work'
+              path='https://group-real-xp.herokuapp.com/'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Boolean'
+              src={image3}
+              text='Cocktail Sort Algorithm '
               label='C++'
-              path='/work'
+
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Boolean'
+              src={image4}
+              text='Bubble Sort Algorithm'
               label='C++'
-              path='/work'
             />
           </ul>
         </div>
