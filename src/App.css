@@ -8,7 +8,6 @@
 
 .home,
 .about,
-.contact,
 .work,
 .blog {
   display: flex;
@@ -22,15 +21,6 @@
   /* background-image: url('/images/img-2.jpg'); */
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.contact {
-  /* background-image: url('/images/img-1.jpg'); */
-  background-position: center;
-  background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
@@ -52,4 +42,10 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.particles {
+  position: relative;
+  width: 100%;
+  z-index: -10;
 }
