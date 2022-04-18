@@ -23,6 +23,8 @@ const ParticleBackground = () => {
         },
         fpsLimit: 120,
         interactivity: {
+          detect_on: "window",
+
           events: {
             onClick: {
               enable: true,
